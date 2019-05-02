@@ -1,0 +1,4 @@
+<h1>All Dragons</h1>
+<% @dragons.each do |dragon| %>
+<li><%= link_to dragon.name, dragon %> | Age:<%= dragon.age %></li>
+<% end %>
